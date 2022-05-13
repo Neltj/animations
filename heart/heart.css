@@ -7,6 +7,8 @@
     margin: 0;
 }
 
+
+
 body {
     display: grid;
     min-height: 100vh;
@@ -16,7 +18,7 @@ body {
 }
 
 .heart {
-    --size: 200px;
+    --size: 150px;
     width: var(--size);
     height: var(--size);
     position: relative;
@@ -50,7 +52,6 @@ body {
 
 .heart:hover {
     animation-play-state: paused;
-    cursor: pointer;
 }
 
 @keyframes beat {
